@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-medialive`](https://www.npmjs.com/package/@aws-sdk/client-medialive/v/3.614.0).
+[`@aws-sdk/client-medialive`](https://www.npmjs.com/package/@aws-sdk/client-medialive/v/3.616.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-medialive@3.614.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-medialive@3.616.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-tGBWibcs+f4y2jjajkBi3rEf9YKYjVo+EFgooHSb7W7DNPtF1DEDGRwgH2PXShAC
+sha384-OIP6DVNW5xKIBj+qUQyTlme6gInne1oyOR1o60NJ+6oQc1QXAvg6EMdnEvboG+Ab
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-medialive": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-medialive@3.614.0/index.min.mjs"
+            "@aws-sdk/client-medialive": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-medialive@3.616.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-medialive@3.614.0/index.min.mjs": "sha384-tGBWibcs+f4y2jjajkBi3rEf9YKYjVo+EFgooHSb7W7DNPtF1DEDGRwgH2PXShAC"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-medialive@3.616.0/index.min.mjs": "sha384-OIP6DVNW5xKIBj+qUQyTlme6gInne1oyOR1o60NJ+6oQc1QXAvg6EMdnEvboG+Ab"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-medialive": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-medialive@3.614.0/index.min.mjs"
+                        "@aws-sdk/client-medialive": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-medialive@3.616.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-medialive@3.614.0/index.min.mjs": "sha384-tGBWibcs+f4y2jjajkBi3rEf9YKYjVo+EFgooHSb7W7DNPtF1DEDGRwgH2PXShAC"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-medialive@3.616.0/index.min.mjs": "sha384-OIP6DVNW5xKIBj+qUQyTlme6gInne1oyOR1o60NJ+6oQc1QXAvg6EMdnEvboG+Ab"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.614.0`)
+* Always pin to a specific version (`@3.616.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-medialive/blob/refs/tags/3.614.0/LICENSE
+https://github.com/cloud-sdk-builds/client-medialive/blob/refs/tags/3.616.0/LICENSE
 ```
 
 ---
